@@ -1,111 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
 
-  body {
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-  }
+.form-container {
+  width: 1000px;
+  margin: 40px auto;
+  border: 2px solid #000;
+  background: #f7f6f6;
+  padding: 15px;
+}
 
-  .form-container {
-    width: 1000px;
-    margin: 40px auto;
-    border: 2px solid #000;
-    background: #f7f6f6;
-    padding: 15px;
-  }
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #000;
+  /* padding-bottom: 10px; */
+}
 
-  /* HEADER */
-  .header {
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #000;
-    padding-bottom: 10px;
-  }
+.logo {
+  width: 150px;
+  height: 110px;
+  margin-right: 15px;
+}
 
-  .logo {
-    width: 80px;
-    margin-right: 15px;
-  }
+.header-text h2 {
+  margin: 0;
+  font-size: 33px;
+  font-weight: bold;
+}
 
-  .header-text h2 {
-    margin: 0;
-    font-size: 20px;
-    font-weight: bold;
-  }
+.header-text p {
+  margin: 2px 0;
+  font-size: 25px;
+  line-height: 40px;
+}
 
-  .header-text p {
-    margin: 2px 0;
-    font-size: 14px;
-  }
+/* SUB HEADER */
+.sub-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+}
 
-  /* SUB HEADER */
-  .sub-header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-    font-size: 13px;
-  }
+.date {
+  border-bottom: 1px solid #000;
+  width: 200px;
+  display: inline-block;
+}
 
-  .date {
-    border-bottom: 1px solid #000;
-    width: 200px;
-    display: inline-block;
-  }
-
-  /* SECTION BOX */
-  .section-box {
-    border: 2px solid #000;
-    padding: 10px;
-    margin-top: 10px;
-  }
-
-  .section-title {
-     font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 15px;
-  }
-
-  /* CHECKBOX LINE */
-  .checkbox-group {
-    display: flex;
-    gap: 17px;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .checkbox-group label {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-  }
-
-  /* COUNTRY CHOICE */
-  .country-choice {
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* gap: 60px; */
-  }
-
-  .country-row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
-  }
-
-  .country-row div {
-    width: 30%;
-    border-bottom: 1px dashed #000;
-    text-align: center;
-    padding-bottom: 3px;
-  }
-
-
-
-  .form-group {
+/* SECTION BOX */
+.section-box {
+  border: 2px solid #000;
+  padding: 10px;
   margin-top: 10px;
 }
 
+.section-title {
+  font-weight: bold;
+  margin-top: 17px;
+  margin-bottom: 15px;
+}
 
+/* CHECKBOX LINE */
+.checkbox-group {
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* COUNTRY CHOICE */
+.country-choice {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 60px; */
+}
+
+.country-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.country-row div {
+  width: 30%;
+  border-bottom: 1px dashed #000;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.form-group {
+  margin-top: 10px;
+}
 
 .line-input {
   border: none;
@@ -115,13 +112,9 @@
   /* position: relative; */
 }
 
-
-
-
 .input-box {
   display: inline-block;
   margin-top: 15px;
-  
 }
 
 .input-box::after {
@@ -132,12 +125,6 @@
   margin-top: 3px;
   text-align: center;
 }
-
-
-
-
-
-
 
 .row {
   display: flex;
@@ -184,11 +171,6 @@
   outline: none;
 }
 
-
-
-
-
-
 /* .section-education {
     font-weight: bold;
     margin-top: 20px;
@@ -198,35 +180,223 @@
 
 /* TABLE */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 8px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
 }
 
-th, td {
-    border: 1px solid #000;
-    padding: 6px;
-    font-size: 12px;
+th,
+td {
+  border: 1px solid #000;
+  padding: 6px;
+  font-size: 12px;
 }
 
 th {
-    text-align: center;
+  text-align: center;
 }
 
- 
-.gap, select {
-    border: none;
-    border-bottom: 1px dashed #000;
-    width: 100%;
-    font-size: 12px;
-    outline: none;
-    /* background: transparent; */
-} 
-
-
+.gap,
+select {
+  border: none;
+  border-bottom: 1px dashed #000;
+  width: 100%;
+  font-size: 12px;
+  outline: none;
+  /* background: transparent; */
+}
 
 .review-row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.red-title {
+  border: 2px solid red;
+  padding: 5px;
+  display: inline-block;
+  color: red;
+}
+
+.sub-section {
+  margin-top: 10px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.small {
+  width: 120px;
+}
+
+table input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px dashed #000;
+}
+
+/* dashed line inputs */
+.line-dash {
+  border: none;
+  border-bottom: 1px dashed #000;
+  width: 95%;
+  outline: none;
+}
+
+/* textarea styled like dashed lines */
+.job-desc textarea {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px dashed #000;
+  outline: none;
+  resize: none;
+  margin-bottom: 10px;
+}
+
+/* tighter table spacing like form */
+table td {
+  padding: 8px;
+}
+
+/* section spacing */
+.section-box {
+  margin-top: 15px;
+}
+
+/* dashed input styles */
+.line-dash {
+  border: none;
+  border-bottom: 1px dashed #000;
+  outline: none;
+  width: 80%;
+}
+
+.line-dash.full {
+  width: 95%;
+}
+
+.line-dash.long {
+  width: 55%;
+}
+
+.line-dash.small {
+  width: 25%;
+}
+
+/* two column layout for awards */
+.two-column-lines {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.two-column-lines p {
+  margin: 8px 0;
+}
+
+/* vertical divider */
+.divider {
+  width: 2px;
+  background: #000;
+  height: 100px;
+}
+
+/* certificate table styling */
+.certificate-table td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+/* referee box */
+.ref-box {
+  border: 2px solid #000;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* notes */
+.note {
+  font-weight: normal;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.small-note {
+  font-size: 11px;
+  display: block;
+  margin-left: 10px;
+}
+
+/* dashed inputs */
+.line-dash {
+  border: none;
+  border-bottom: 1px dashed #000;
+  outline: none;
+}
+
+.line-dash.full {
+  width: 95%;
+}
+.line-dash.mid {
+  width: 45%;
+}
+.line-dash.small {
+  width: 25%;
+}
+.line-dash.sign {
+  width: 250px;
+}
+
+/* spacing */
+.section-box p {
+  margin: 8px 0;
+}
+
+/* beneficiaries spacing */
+.beneficiary {
+  margin-bottom: 10px;
+}
+
+/* declaration text */
+.declaration-text {
+  font-size: 12px;
+  text-align: justify;
+  margin-top: 10px;
+}
+
+/* signature */
+.signature-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.signature-row div {
+  text-align: center;
+}
+
+/* center title */
+.center {
+  text-align: center;
+}
+
+/* mode row */
+.mode-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* table styling */
+table td,
+table th {
+  border: 1px solid #000;
+  padding: 8px;
+  font-size: 12px;
 }
