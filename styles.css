@@ -107,7 +107,7 @@ body {
 .line-input {
   border: none;
   border-bottom: 1px dashed #000;
-  width: 75%;
+  width: 69%;
   outline: none;
   /* position: relative; */
 }
@@ -171,12 +171,11 @@ body {
   outline: none;
 }
 
-/* .section-education {
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 15px;
-
-} */
+.section-education {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
 
 /* TABLE */
 table {
@@ -251,12 +250,12 @@ table input {
 /* textarea styled like dashed lines */
 .job-desc textarea {
   width: 100%;
-  height: 50px;
+  height: 35px;
   border: none;
   border-bottom: 1px dashed #000;
   outline: none;
   resize: none;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 
 /* tighter table spacing like form */
@@ -315,7 +314,7 @@ table td {
 
 /* referee box */
 .ref-box {
-  border: 2px solid #000;
+  border: 1px solid #000;
   padding: 10px;
   margin-top: 10px;
 }
@@ -344,7 +343,7 @@ table td {
   width: 95%;
 }
 .line-dash.mid {
-  width: 45%;
+  width: 40%;
 }
 .line-dash.small {
   width: 25%;
@@ -399,4 +398,30 @@ table th {
   border: 1px solid #000;
   padding: 8px;
   font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+tr:hover {
+  background: #f1f1f1;
+  cursor: pointer;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  padding: 13px 17px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgb(75, 34, 255);
 }
